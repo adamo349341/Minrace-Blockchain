@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minerace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Minerace Dashboard</h1>
+
+  <div class="card">
+    <h2>Wallet</h2>
+    <button onclick="createWallet()">Create Wallet</button>
+    <p id="wallet"></p>
+  </div>
+
+  <div class="card">
+    <h2>Faucet</h2>
+    <button onclick="getFaucet()">Get 100 Coins</button>
+  </div>
+
+  <div class="card">
+    <h2>Send Transaction</h2>
+    <input id="to" placeholder="Recipient public key">
+    <input id="amount" placeholder="Amount">
+    <button onclick="sendTransaction()">Send</button>
+  </div>
+
+  <div class="card">
+    <h2>Stats</h2>
+    <p id="difficulty">Difficulty: -</p>
+    <p id="blocks">Blocks: -</p>
+    <p id="pending">Pending TX: -</p>
+  </div>
+
+  <div class="card">
+    <h2>Balance</h2>
+    <button onclick="loadBalance()">Check Balance</button>
+    <p id="balance"></p>
+  </div>
+
+  <div class="card">
+    <h2>Blockchain</h2>
+    <pre id="chain"></pre>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
