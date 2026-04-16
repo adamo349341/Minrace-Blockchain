@@ -1,4 +1,4 @@
-#  Mini Blockchain System (Node.js + Dashboard)
+#  Minerace Blockchain System (Node.js + Dashboard)
 
 A simplified blockchain simulation built with Node.js featuring Proof of Work, dynamic difficulty adjustment, signed transactions, wallet system, auto-mining, faucet for initial funding, and a live frontend dashboard.
 
